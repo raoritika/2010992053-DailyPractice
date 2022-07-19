@@ -1,0 +1,26 @@
+body{
+    background:url(nature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#div1{
+    width: 100%;
+    height: 5rem;
+    background-color: lightgreen;
+}
+
+
+
+#div2{
+    font-size:2rem;
+    font-family: cursive;
+    text-align: center;
+}
+
+#div3{
+    width: 100%;
+    height: 5rem;
+    background-color: lightgreen;
+}
