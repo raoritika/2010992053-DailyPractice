@@ -1,0 +1,28 @@
+html{
+    /* root element  */
+    font-size: 40px; 
+}
+
+/* body{
+    No effect of this font on anything
+    font-size: 40px;
+} */
+
+#mainDiv{
+    /* parent element */
+    font-size: 32px;
+}
+
+#div1{
+    /* take parent's property */
+    font-size: 2em; /*64 */
+}
+
+#div2{
+     /* take root's property*/
+    font-size: 2rem; /*80*/
+}
+
+#div3{
+    /* mainDiv fontsize (parent's property)*/
+}
