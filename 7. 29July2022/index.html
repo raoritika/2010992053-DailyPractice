@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript</title>
+</head>
+<body>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <script>
+        var price1 = 68;
+        var price2 = 79;
+        var totalPrice = price1 + price2;
+        console.log(totalPrice);
+        document.getElementById("demo1").innerHTML = "Total is "+totalPrice;
+        
+        var n1 = "5" + "5";
+        document.getElementById("demo2").innerHTML = "n1 is "+n1;
+        var n2 = "5" + 5;
+        document.getElementById("demo2").innerHTML = "n2 is "+n2;
+        var n3 = 5 + 5;
+        document.getElementById("demo2").innerHTML = "n3 is "+n3;
+
+        var str = "Ritika Rao";
+        document.getElementById("demo3").innerHTML = "My name is "+str;
+
+        let person = {
+            firstName: "Jhon",
+            lastName: "Doe",
+            age: 50,
+            eyeColor: "Blue",
+        };
+        document.getElementById("demo4").innerHTML = person.firstName + ", Age is " + person.age;
+
+        var n = Number("123");
+        n = n + 2;
+        var s = "2";
+        s = n + s;
+        document.getElementById("demo5").innerHTML = "n (123 + 2) = " + n + ", s (n + s) = " + s;
+
+        
+
+    </script>
+</body>
+</html>
